@@ -1,4 +1,4 @@
-const cart = require('./cart');
+const cart = require('./Cart');
 const payment = require('./payment');
 
 // Testing cart functionality
@@ -13,4 +13,4 @@ cart.showCart();
 console.log("Testing payment functionality...");
 payment.validatePayment('Credit Card');
 payment.validatePayment('PayPal');
-payment.validatePayment('Bitcoin');  // Unsupported payment method
+payment.validatePayment('Bitcoin');
